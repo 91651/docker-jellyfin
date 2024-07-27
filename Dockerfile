@@ -4,7 +4,7 @@
 ARG DOTNET_VERSION
 
 # build jellyfin server
-FROM mcr.microsoft.com/dotnet/sdk:8.0.7-alpine AS server
+FROM mcr.microsoft.com/dotnet/sdk:8.0.303-alpine3.20 AS server
 
 ARG JELLYFIN_VERSION
 ARG DOTNET_CLI_TELEMETRY_OPTOUT=1
